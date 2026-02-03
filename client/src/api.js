@@ -1,5 +1,5 @@
 function getApiUrl(path) {
-  const base = import.meta.env.VITE_API_URL;
+  const base = process.env.REACT_APP_API_URL;
   if (base) return `${base.replace(/\/$/, '')}${path}`;
   return path;
 }

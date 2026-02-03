@@ -53,7 +53,7 @@ A lightweight pastebin application with time-based (TTL) and view-count expiry. 
    npm run dev
    ```
 
-   In dev mode, set `VITE_API_URL` to the backend URL for the proxy.
+   In dev mode, set `REACT_APP_API_URL` to the backend URL for the proxy.
 
 5. Access the app at the URL defined by your deployment (same domain serves API and frontend).
 
